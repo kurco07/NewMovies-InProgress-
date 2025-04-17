@@ -17,13 +17,13 @@ body {
   left: 0;
   right: 0;
   display: flex;
-  justify-content: center; /* Centramos el contenido principal */
+  justify-content: center;
   width: 100%;
   height: 2.2em;
 
   padding: 0.4rem 0;
   box-sizing: border-box;
-  z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  z-index: 1000;
 }
 
 .navbar-container {
@@ -31,18 +31,16 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1200px; /* Límite máximo de ancho */
-  padding: 0 20px; /* Espaciado interno */
+  max-width: 1200px;
+  padding: 0 20px;
 }
 
 .navbar-logo {
   display: flex;
   gap: 4px;
   align-items: center;
-  /* Eliminamos el margin-left fijo */
 }
 
-/* El resto de tus estilos se mantienen igual */
 .active {
   color: rgb(144, 238, 144);
 }
@@ -178,11 +176,11 @@ a {
   font-size: 2rem;
 }
 .overview {
-  color: rgba(255, 255, 255, 0.6); /* Texto padre semitransparente */
+  color: rgba(255, 255, 255, 0.6);
   font-size: 1.4rem;
 }
 .overview-span {
-  color: white; /* Texto del span totalmente opaco */
+  color: white;
 }
 
 .container-fav {
@@ -199,13 +197,11 @@ a {
 }
 
 .favsection {
-  /* background-color: blue; */
   width: 100%;
   display: flex;
   justify-content: center;
 }
 .favMovies {
-  /* background-color: #21b080; */
   width: 80%;
   margin-top: 12px;
   display: flex;
@@ -231,7 +227,7 @@ a {
   padding: 12px 20px;
   font-size: 1.2rem;
   border-radius: 8%;
-  width: 100%; /* Ocupa todo el ancho disponible */
+  width: 100%;
   max-width: 300px;
   margin: 10px 0;
   box-shadow: 0 2px 8px #0000004d;
